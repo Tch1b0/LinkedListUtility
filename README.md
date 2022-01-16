@@ -1,6 +1,6 @@
 # LinkedListUtility
 
-## Taskfile comands
+## Taskfile commands
 
 -   `build` Builds the binary to `./out`
 -   `run` Runs the built binary
