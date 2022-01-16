@@ -161,9 +161,7 @@ Node *ll_get_index(Node *head, int index)
     while (temp != NULL)
     {
         if (i == index)
-        {
             return temp;
-        }
 
         temp = temp->next;
         i++;
