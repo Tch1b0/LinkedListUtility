@@ -190,3 +190,18 @@ int *ll_to_array(Node *head)
 
     return array;
 }
+
+/*
+ * Free a linked list
+ */
+void ll_destroy(Node *head)
+{
+    int *arr = ll_to_array(head);
+
+    for (int i = 0; i < ll_length(head); i++)
+    {
+        free(&arr[i]);
+    }
+
+    free(arr);
+}

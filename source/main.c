@@ -32,5 +32,7 @@ int main(int argc, char **argv)
     printf("\nLinked list as array:\n");
     print_array(ll_length(head), ll_to_array(head));
 
+    ll_destroy(head);
+
     return 0;
 }

@@ -18,5 +18,6 @@ Node *ll_create_from_array(int array_length, int *array);
 int ll_length(Node *head);
 Node *ll_get_index(Node *head, int index);
 int *ll_to_array(Node *head);
+void ll_destroy(Node *head);
 
 #endif
